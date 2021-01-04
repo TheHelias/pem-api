@@ -5,6 +5,7 @@ import bodyParser from 'body-parser'
 import logger from 'morgan'
 import cors from 'cors'
 
+import query from './database/db-connection'
 import routes from './routes/index'
 
 const app = express()
